@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS Grid</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /* grid-column-gap: 1em; 
+    grid-row-gap: 1em;  */
+
+        grid-gap: 1em;
+
+    }
+
+    .wrapper div {
+        background: lightgrey;
+        padding: 1em;
+    }
+
+    .wrapper div:nth-child(odd) {
+        background: rgb(177, 174, 174);
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aspernatur incidunt voluptatum
+            necessitatibus illo rem vitae perferendis atque officia odit vel minus officiis quisquam, eligendi iure
+            deleniti fuga ratione praesentium. Nesciunt, saepe eum atque obcaecati unde repellat animi fugiat fugit
+            aliquid eligendi itaque placeat est voluptatibus deserunt. Placeat velit, architecto amet repellat atque
+            nihil neque voluptate saepe harum illo libero magni omnis quisquam blanditiis, eaque quibusdam enim vel
+            voluptas earum eius veniam aliquid? Repellendus soluta omnis illum, distinctio eos sed!
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur iste ut iusto ad, error rerum
+            reprehenderit, distinctio magnam explicabo dolores assumenda? Recusandae temporibus fugit placeat similique
+            vel ratione officiis labore!
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur iste ut iusto ad, error rerum
+            reprehenderit, distinctio magnam explicabo dolores assumenda? Recusandae temporibus fugit placeat similique
+            vel ratione officiis labore!
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur iste ut iusto ad, error rerum
+            reprehenderit, distinctio magnam explicabo dolores assumenda? Recusandae temporibus fugit placeat similique
+            vel ratione officiis labore!
+        </div>
+
+    </div>
+
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script src="" async defer></script>
+</body>
+
+</html>
